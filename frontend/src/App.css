@@ -1,0 +1,8 @@
+/* Global CSS */
+html, body {
+  overflow-x: hidden;  /* Prevents horizontal scrolling */
+  width: 100%; /* Ensures body is confined to the viewport width */
+  margin: 0;  /* Removes any default margin that might cause overflow */
+  padding: 0;  /* Removes any default padding */
+}
+

@@ -1,0 +1,173 @@
+[{
+  "lineName": "Orange Line",
+  "direction": "North-South",
+  "frequencyMinutes": 10,
+  "operatingHours": {
+    "start": "06:00",
+    "end": "22:30"
+  },
+  "stations": [
+    {
+      "name": "Automotive Square",
+      "timings": { "06:00": "Arriving", "06:05": "Departing" },
+      "location": { "lat": 21.1406, "lng": 79.0715 }
+    },
+    {
+      "name": "Pratap Nagar",
+      "timings": { "06:10": "Arriving", "06:15": "Departing" },
+      "location": { "lat": 21.1452, "lng": 79.0786 }
+    },
+    {
+      "name": "Shivaji Nagar",
+      "timings": { "06:20": "Arriving", "06:25": "Departing" },
+      "location": { "lat": 21.1531, "lng": 79.0831 }
+    },
+    {
+      "name": "Sitabuldi",
+      "timings": { "06:30": "Arriving", "06:35": "Departing" },
+      "location": { "lat": 21.1478, "lng": 79.0883 }
+    },
+    {
+      "name": "Civil Lines",
+      "timings": { "06:40": "Arriving", "06:45": "Departing" },
+      "location": { "lat": 21.1465, "lng": 79.0946 }
+    },
+    {
+      "name": "Gandhibagh",
+      "timings": { "06:50": "Arriving", "06:55": "Departing" },
+      "location": { "lat": 21.146, "lng": 79.1003 }
+    },
+    {
+      "name": "Indora",
+      "timings": { "07:00": "Arriving", "07:05": "Departing" },
+      "location": { "lat": 21.1468, "lng": 79.1051 }
+    },
+    {
+      "name": "Nandanvan",
+      "timings": { "07:10": "Arriving", "07:15": "Departing" },
+      "location": { "lat": 21.1476, "lng": 79.111 }
+    },
+    {
+      "name": "Ambazari",
+      "timings": { "07:20": "Arriving", "07:25": "Departing" },
+      "location": { "lat": 21.1547, "lng": 79.1117 }
+    },
+    {
+      "name": "Moti Nagar",
+      "timings": { "07:30": "Arriving", "07:35": "Departing" },
+      "location": { "lat": 21.1608, "lng": 79.1115 }
+    }
+  ],
+  "fares": {
+    "Automotive Square": {
+      "Pratap Nagar": 10,
+      "Shivaji Nagar": 15,
+      "Sitabuldi": 20,
+      "Civil Lines": 25,
+      "Gandhibagh": 30,
+      "Indora": 35,
+      "Nandanvan": 40,
+      "Ambazari": 45,
+      "Moti Nagar": 50
+    },
+    "Pratap Nagar": {
+      "Automotive Square": 10,
+      "Shivaji Nagar": 10,
+      "Sitabuldi": 15,
+      "Civil Lines": 20,
+      "Gandhibagh": 25,
+      "Indora": 30,
+      "Nandanvan": 35,
+      "Ambazari": 40,
+      "Moti Nagar": 45
+    },
+    "Shivaji Nagar": {
+      "Automotive Square": 15,
+      "Pratap Nagar": 10,
+      "Sitabuldi": 10,
+      "Civil Lines": 15,
+      "Gandhibagh": 20,
+      "Indora": 25,
+      "Nandanvan": 30,
+      "Ambazari": 35,
+      "Moti Nagar": 40
+    },
+    "Sitabuldi": {
+      "Automotive Square": 20,
+      "Pratap Nagar": 15,
+      "Shivaji Nagar": 10,
+      "Civil Lines": 10,
+      "Gandhibagh": 15,
+      "Indora": 20,
+      "Nandanvan": 25,
+      "Ambazari": 30,
+      "Moti Nagar": 35
+    },
+    "Civil Lines": {
+      "Automotive Square": 25,
+      "Pratap Nagar": 20,
+      "Shivaji Nagar": 15,
+      "Sitabuldi": 10,
+      "Gandhibagh": 10,
+      "Indora": 15,
+      "Nandanvan": 20,
+      "Ambazari": 25,
+      "Moti Nagar": 30
+    },
+    "Gandhibagh": {
+      "Automotive Square": 30,
+      "Pratap Nagar": 25,
+      "Shivaji Nagar": 20,
+      "Sitabuldi": 15,
+      "Civil Lines": 10,
+      "Indora": 10,
+      "Nandanvan": 15,
+      "Ambazari": 20,
+      "Moti Nagar": 25
+    },
+    "Indora": {
+      "Automotive Square": 35,
+      "Pratap Nagar": 30,
+      "Shivaji Nagar": 25,
+      "Sitabuldi": 20,
+      "Civil Lines": 15,
+      "Gandhibagh": 10,
+      "Nandanvan": 10,
+      "Ambazari": 15,
+      "Moti Nagar": 20
+    },
+    "Nandanvan": {
+      "Automotive Square": 40,
+      "Pratap Nagar": 35,
+      "Shivaji Nagar": 30,
+      "Sitabuldi": 25,
+      "Civil Lines": 20,
+      "Gandhibagh": 15,
+      "Indora": 10,
+      "Ambazari": 10,
+      "Moti Nagar": 15
+    },
+    "Ambazari": {
+      "Automotive Square": 45,
+      "Pratap Nagar": 40,
+      "Shivaji Nagar": 35,
+      "Sitabuldi": 30,
+      "Civil Lines": 25,
+      "Gandhibagh": 20,
+      "Indora": 15,
+      "Nandanvan": 10,
+      "Moti Nagar": 10
+    },
+    "Moti Nagar": {
+      "Automotive Square": 50,
+      "Pratap Nagar": 45,
+      "Shivaji Nagar": 40,
+      "Sitabuldi": 35,
+      "Civil Lines": 30,
+      "Gandhibagh": 25,
+      "Indora": 20,
+      "Nandanvan": 15,
+      "Ambazari": 10
+    }
+  }
+}]
